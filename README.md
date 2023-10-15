@@ -10,8 +10,5 @@
         <p>I'm interested in AI, quantum computing, statistics, and CFD.</p>
       </section>
     </main>
-    <footer>
-      <p>&copy; [Michael Chen] 2023</p>
-    </footer>
   </body>
 </html>
