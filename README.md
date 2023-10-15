@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <header>
@@ -10,5 +9,3 @@
         <p>I'm interested in AI, quantum computing, statistics, and CFD.</p>
       </section>
     </main>
-  </body>
-</html>
