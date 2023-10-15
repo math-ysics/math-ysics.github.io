@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Personal Website</title>
-  </head>
-  <body>
     <header>
       <h1>Welcome to My Personal Website</h1>
       <nav>
