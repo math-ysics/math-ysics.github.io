@@ -3,11 +3,6 @@
   <head>
     <header>
       <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-        </ul>
-      </nav>
     </header>
     <main>
       <section id="about">
