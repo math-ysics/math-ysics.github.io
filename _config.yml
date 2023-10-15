@@ -1,4 +1,6 @@
 remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: Michael Chen
 description: undergraduate student at the California Institute of Technology
 slow_downloads: false
