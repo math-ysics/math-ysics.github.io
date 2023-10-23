@@ -7,5 +7,6 @@
       <section id="about">
         <h2>About Me</h2>
         <p>I'm interested in AI, quantum computing, statistics, and computational fluid dynamics.</p>
+        ![Graph](/docs/assets/images/Graph.png)
       </section>
     </main>
