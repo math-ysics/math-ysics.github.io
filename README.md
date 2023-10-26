@@ -7,6 +7,6 @@
       <section id="about">
         <h2>About Me</h2>
         <p>I'm interested in AI, quantum computing, statistics, and computational fluid dynamics.</p>
-        <a href="https://github.com/math-ysics/math-ysics.github.io/blob/main/docs/assets/images/graph.png" alt="graph" /></a>
+        <a href="https://example.com"><img src="https://github.com/math-ysics/math-ysics.github.io/blob/main/docs/assets/images/graph.png" alt="graph" /></a>
       </section>
     </main>
