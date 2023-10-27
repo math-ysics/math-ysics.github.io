@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<p class="p1">Times New Roman font!</p>
+<p class="p1"><i>Times New Roman font in italics!</i></p>
 
 </body>
 </html>
