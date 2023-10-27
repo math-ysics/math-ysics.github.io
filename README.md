@@ -9,6 +9,11 @@ p {
   font-style: italic;
 }
 </style>
+</head>
+<body>
+
+<html>
+<head>
 <style>
 p {
   background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png');
@@ -16,7 +21,7 @@ p {
 </style>
 </head>
 <body>
-
+<p>
 <header>
   <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
 </header>
@@ -42,6 +47,7 @@ p {
     </div>
     <div style="flex: 1;">
       <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" height="200" /></a>
+      </p>
     </div>
   </div>
 </section>
