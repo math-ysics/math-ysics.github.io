@@ -18,13 +18,10 @@
             flex-wrap: wrap;
             padding: 0 4px;
           }
-        
-          /* Create four equal columns that sits next to each other */
           .column {
             flex: 25%;
             padding: 0 4px;
           }
-        
           .column img {
             margin-top: 8px;
             vertical-align: middle;
@@ -32,7 +29,6 @@
             height: auto;
           }
         </style>
-        
         <div class="row">
           <div class="column">
             <a href="^1^"><img src="^2^" /></a>
