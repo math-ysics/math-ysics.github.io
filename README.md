@@ -9,39 +9,13 @@
         <p>I'm interested in AI, quantum computing, statistics, and computational fluid dynamics.</p>
         <p>Enjoy some of my graphs!</p>
         <p>Harmony of red and blue:</p>
-        <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png" /></a>
+        <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math ysics.github.io/main/docs/assets/images/graph.png" /></a>
         <p>A beautiful set!</p>
         <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png" /></a>
-        <style>
-          .row {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 4px;
-          }
-          .column {
-            flex: 25%;
-            padding: 0 4px;
-          }
-          .column img {
-            margin-top: 8px;
-            vertical-align: middle;
-            width: 100%;
-            height: auto;
-          }
-        </style>
-        <div class="row">
-          <div class="column">
-            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" /></a>
-          </div>
-          <div class="column">
-            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png" /></a>
-          </div>
-          <div class="column">
-            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png" /></a>
-          </div>
-          <div class="column">
-            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" /></a>
-          </div>
-        </div>
+        <p>Some purple in tribute to A Very Fine House (avery.caltech.edu):</p>
+        <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" /></a>
+        <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png" /></a>
+        <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png" /></a>
+        <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" /></a>
       </section>
     </main>
