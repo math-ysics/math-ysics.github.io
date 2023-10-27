@@ -7,24 +7,11 @@ h1, h2 {
 p {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
-  background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 </style>
 </head>
 <body>
 
-<html>
-<head>
-<style>
-p {
-  background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png');
-}
-</style>
-</head>
-<body>
 <header>
   <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
 </header>
