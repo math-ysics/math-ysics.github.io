@@ -7,6 +7,10 @@ h1, h2 {
 p {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
+  background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 </style>
 </head>
@@ -53,4 +57,3 @@ p {
 
 </body>
 </html>
-
