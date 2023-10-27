@@ -9,6 +9,11 @@ p {
   font-style: italic;
 }
 </style>
+<style>
+p {
+  background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png');
+}
+</style>
 </head>
 <body>
 
