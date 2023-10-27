@@ -1,5 +1,10 @@
 <html>
   <head>
+    <style>
+    body {
+      font-family: 'Pacifico', cursive;
+    }
+    </style>
     <header>
       <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
     </header>
@@ -12,7 +17,7 @@
       <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png" /></a>
       <p>A beautiful set!</p>
       <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png" /></a>
-      <p>A bit of purple in tribute to A Very Fine House (avery.caltech.edu):</p>
+      <p>Some purple in tribute to A Very Fine House (avery.caltech.edu):</p>
       <div style="display: flex;">
         <div style="flex: 1;">
           <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" height="200" /></a>
