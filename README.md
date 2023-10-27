@@ -31,16 +31,16 @@
         </style>
         <div class="row">
           <div class="column">
-            <a href="^1^"><img src="^2^" /></a>
+            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" /></a>
           </div>
           <div class="column">
-            <a href="^1^"><img src="^3^" /></a>
+            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png" /></a>
           </div>
           <div class="column">
-            <a href="^1^"><img src="^4^" /></a>
+            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png" /></a>
           </div>
           <div class="column">
-            <a href="^1^"><img src="^5^" /></a>
+            <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" /></a>
           </div>
         </div>
       </section>
