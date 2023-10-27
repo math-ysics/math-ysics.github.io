@@ -19,7 +19,7 @@ p {
 <section id="about">
   <h2>About Me</h2>
   <p>I'm interested in AI, quantum computing, statistics, and computational fluid dynamics.</p>
-  <p>Enjoy some of my graphs!</p>
+  <h2>Enjoy some of my graphs!</h2>
   <p>Harmony of red and blue:</p>
   <a href="https://example.com"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png" /></a>
   <p>A beautiful set!</p>
