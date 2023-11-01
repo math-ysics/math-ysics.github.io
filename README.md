@@ -19,7 +19,7 @@ p {
 <section id="about">
   <h2>About Me</h2>
   <p>I'm interested in AI, quantum computing, statistics, and computational fluid dynamics.</p>
-  <p>In research, I am a firm believer of the words Opportunity, Curiosity, and Perseverance (the names of NASA/Caltech/JPL's recent 3 Mars rovers).</p>
+  <p>In research, I am a firm believer of the words Opportunity, Curiosity, and Perseverance (the names of NASA/Caltech/JPL's most recent 3 Mars rovers).</p>
   <p>In society, I follow the Constitution of Avery House, embodying Creativity, Integrity, and Tenacity.</p>
   <h2>Enjoy some of my graphs!</h2>
   <p>Harmony of red and blue:</p>
