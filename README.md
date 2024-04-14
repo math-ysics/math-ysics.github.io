@@ -110,6 +110,7 @@
   <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
 </header>
 <main>
+  margin-top: 40px;
 <section id="about">
   <h2>About Me</h2>
   <p>I'm interested in AI, statistics, theoretical astrophysics, and computational fluid dynamics.</p>
