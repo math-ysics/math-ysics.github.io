@@ -13,10 +13,11 @@
   }
 
   header {
-    background-color: #333;
+    background-color: #007bff; /* Change the background color to a blue shade */
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-bottom: 30px; /* Add some bottom margin to separate it from the content */
   }
 
   main {
