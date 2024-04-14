@@ -21,9 +21,8 @@
     backdrop-filter: blur(5px); /* Apply Gaussian blur to the background image */
   }
 
-  /* Target only top-level sections under main for background styling */
   main > header, main > section {
-      background-color: rgba(255, 255, 255, 0.55); /* White background with opacity */
+      background-color: rgba(255, 255, 255, 0.55); /* Semi-transparent white background */
       padding: 20px; /* Sufficient padding */
       border-radius: 10px; /* Rounded corners */
       margin-top: 20px; /* Top margin for spacing */
@@ -37,15 +36,18 @@
   
   /* Ensure the main tag itself does not add extra background beyond what its children have */
   main {
-      background-color: rgba(255, 255, 255, 0); /* No background */
+      background-color: rgba(255, 255, 255, 0); /* No additional background */
       padding: 10px;
       border-radius: 10px; /* Consistent rounded corners */
   }
 
 
   h1, h2 {
-    font-weight: bold;
-    color: #0056b3;
+      font-size: 24px; /* Same size as h2 */
+      margin-top: 20px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #0056b3;
   }
 
   h1 {
