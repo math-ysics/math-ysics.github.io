@@ -171,6 +171,32 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Array of ids for links you want to animate
+    const linkTexts = ['opportunity', 'curiosity', 'perseverance'];
+
+    linkTexts.forEach(text => {
+        // Select the link based on its href attribute (as an example, check the partial URL)
+        const links = document.querySelectorAll(`a[href*="${text}"]`);
+
+        links.forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                link.style.transition = 'transform 0.3s, color 0.3s';
+                link.style.transform = 'rotate(5deg)';
+                link.style.color = '#ff6347'; // tomato color
+            });
+            link.addEventListener('mouseleave', () => {
+                link.style.transition = 'transform 0.3s, color 0.3s';
+                link.style.transform = 'rotate(0deg)';
+                link.style.color = '#d6336c'; // original color from your CSS
+            });
+        });
+    });
+});
+</script>
+
+
 
 </body>
 </html>
