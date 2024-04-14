@@ -126,7 +126,7 @@
 <body>
 
 <header>
-  <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
+  <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
 </header>
 <main>
 <section id="about">
