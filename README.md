@@ -12,7 +12,7 @@
     font-family: "Times New Roman", Times, serif;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
+    padding: 0px;
     // background-color: #f4f4f9;
     background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png'); /* Add your desired background image URL here */
     background-size: cover;
