@@ -22,7 +22,7 @@
   }
 
   header, main, div[style*="flex"], section {
-      background-color: rgba(255, 255, 255, 0.0); /* White background with 80% opacity */
+      background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
       padding: 5px; /* Add padding to these elements if needed */
       border-radius: 10px; /* Optional: adds rounded corners to your content blocks */
       margin-top: 40px;
@@ -108,7 +108,7 @@
 <body>
 
 <header>
-  <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
+  <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
 </header>
 <main>
 <section id="about">
