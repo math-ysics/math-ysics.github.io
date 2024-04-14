@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <style>
 h1, h2 {
@@ -8,14 +7,6 @@ h1, h2 {
 p {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
-}
-.image-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-.image-container img {
-  margin-right: 10px;
 }
 </style>
 </head>
@@ -37,7 +28,7 @@ p {
   <p>A beautiful set!</p>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png" /></a>
   <p>A Very Fine House (<a href="https://avery.caltech.edu/">Avery House!</a>):</p>
-  <div class="image-container">
+  <div style="display: flex;">
     <div style="flex: 1;">
       <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" height="200" /></a>
     </div>
