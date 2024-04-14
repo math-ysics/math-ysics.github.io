@@ -1,7 +1,7 @@
 <html>
 <head>
 <style>
-  /* Existing styles */
+  /* General styles */
   * {
     margin: 0;
     padding: 0;
@@ -10,49 +10,54 @@
 
   body {
     font-family: "Times New Roman", Times, serif;
-    color: white; /* Changed color to white */
+    color: white; /* Setting default text color to white */
     line-height: 1.6;
     padding: 10px;
-    background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png'); /* Add your desired background image URL here */
+    background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Optional: makes the background fixed during scrolling */
-    backdrop-filter: blur(5px); /* Apply Gaussian blur to the background image */
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
   }
 
+  /* Specific background for content sections */
   main > header, main > section {
-      background-color: rgba(255, 255, 255, 0.55); /* Semi-transparent white background */
-      padding: 20px; /* Sufficient padding */
-      border-radius: 10px; /* Rounded corners */
-      margin-top: 20px; /* Top margin for spacing */
+      background-color: rgba(255, 255, 255, 0.55);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
   }
   
+  /* Flex container specific rules */
   div[style*="flex"] {
-      background-color: rgba(255, 255, 255, 0); /* No background */
+      background-color: transparent;
       padding: 6px;
   }
   
   main {
-      background-color: rgba(255, 255, 255, 0); /* No additional background */
+      background-color: transparent;
       padding: 10px;
-      border-radius: 10px; /* Consistent rounded corners */
+      border-radius: 10px;
   }
 
+  /* Header styles */
   h1, h2 {
       font-size: 24px;
       margin-top: 20px;
       margin-bottom: 5px;
       font-weight: bold;
-      color: #0056b3; /* Blue color for headers */
+      color: #0056b3; /* Keeping header colors blue */
   }
 
+  /* Paragraph styles */
   p {
     font-size: 18px;
     font-style: italic;
-    color: #555; /* Light grey color for paragraphs */
+    color: white; /* Ensuring paragraphs are white */
     margin-bottom: 10px;
   }
 
+  /* Link styles */
   a {
     color: #d6336c; /* Pink color for links */
     text-decoration: none;
@@ -72,14 +77,16 @@
     h1, h2 {
       font-size: 22px;
     }
+
     p {
       font-size: 16px;
     }
   }
 
+  /* Override styles for GitHub Pages or specific containers */
   .container-lg.px-3.my-5.markdown-body h1 a,
   .container-lg.px-3.my-5.markdown-body h1 a:visited {
-    color: #333 !important; /* Override text color */
+    color: #333 !important;
     background-color: transparent !important;
     text-decoration: none !important;
     pointer-events: none;
@@ -90,6 +97,7 @@
     display: none !important;
   }
 
+  /* Custom header in the site's header section */
   header h1 {
     font-size: 32px;
     color: #0056b3;
@@ -97,6 +105,7 @@
     font-weight: bold;
   }
 </style>
+
 
 </head>
 <body>
