@@ -143,7 +143,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // Function to animate headers on hover
+    // Animation for headers and images
     const headers = document.querySelectorAll('h1, h2');
     headers.forEach(header => {
         header.addEventListener('mouseenter', () => {
@@ -156,7 +156,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Function to add shadow to images on hover
     const images = document.querySelectorAll('img');
     images.forEach(img => {
         img.addEventListener('mouseenter', () => {
@@ -168,33 +167,27 @@ document.addEventListener('DOMContentLoaded', function () {
             img.style.boxShadow = 'none';
         });
     });
-});
-</script>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    // Array of ids for links you want to animate
+    // Animation for specific links
     const linkTexts = ['opportunity', 'curiosity', 'perseverance'];
-
     linkTexts.forEach(text => {
-        // Select the link based on its href attribute (as an example, check the partial URL)
         const links = document.querySelectorAll(`a[href*="${text}"]`);
-
         links.forEach(link => {
             link.addEventListener('mouseenter', () => {
                 link.style.transition = 'transform 0.3s, color 0.3s';
                 link.style.transform = 'rotate(5deg)';
-                link.style.color = '#ff6347'; // tomato color
+                link.style.color = '#ff6347'; // Tomato color
             });
             link.addEventListener('mouseleave', () => {
                 link.style.transition = 'transform 0.3s, color 0.3s';
                 link.style.transform = 'rotate(0deg)';
-                link.style.color = '#d6336c'; // original color from your CSS
+                link.style.color = '#d6336c'; // Original color from your CSS
             });
         });
     });
 });
 </script>
+
 
 
 
