@@ -21,12 +21,27 @@
     backdrop-filter: blur(5px); /* Apply Gaussian blur to the background image */
   }
 
-  header, main, div[style*="flex"], section {
-      background-color: rgba(255, 255, 255, 0.5); /* White background with opacity */
-      padding: 5px; /* Add padding to these elements if needed */
-      border-radius: 10px; /* Optional: adds rounded corners to your content blocks */
-      margin-top: 40px;
+  /* Target only top-level sections under main for background styling */
+  main > header, main > section {
+      background-color: rgba(255, 255, 255, 0.55); /* White background with opacity */
+      padding: 20px; /* Sufficient padding */
+      border-radius: 10px; /* Rounded corners */
+      margin-top: 20px; /* Top margin for spacing */
   }
+  
+  /* Specific styles for flex containers to avoid reapplying backgrounds */
+  div[style*="flex"] {
+      background-color: rgba(255, 255, 255, 0); /* Essentially no background to avoid double layer */
+      padding: 5px;
+  }
+  
+  /* Ensure the main tag itself does not add extra background beyond what its children have */
+  main {
+      background-color: rgba(255, 255, 255, 0); /* No background */
+      padding: 10px;
+      border-radius: 10px; /* Consistent rounded corners */
+  }
+
 
   h1, h2 {
     font-weight: bold;
