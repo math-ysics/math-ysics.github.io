@@ -20,7 +20,6 @@ p {
   <h2>About Me</h2>
   <p>I'm interested in AI, statistics, theoretical astrophysics, and computational fluid dynamics.</p>
   <p>In research, I am a firm believer of the words Opportunity, Curiosity, and Perseverance (the names of NASA/Caltech/JPL's most recent 3 Mars rovers).</p>
-  <p>In society, I follow the Constitution of Avery House, embodying Creativity, Integrity, and Tenacity.</p>
   <h2>Quote:</h2>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png" /></a>
   <h2>Enjoy some of my graphs!</h2>
