@@ -23,7 +23,7 @@
 
   header, main, div[style*="flex"], section {
       background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
-      padding: 0px; /* Add padding to these elements if needed */
+      padding: 5px; /* Add padding to these elements if needed */
       border-radius: 10px; /* Optional: adds rounded corners to your content blocks */
       margin-top: 40px;
   }
