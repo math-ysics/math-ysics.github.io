@@ -79,11 +79,30 @@
     }
   }
 
-  /* If you want to remove the link entirely, use this instead */
-  .container-lg.px-3.my-5.markdown-body h1 {
-    display: none !important; /* Hide the header */
+  /* New style to override GitHub Pages theme styles */
+  .container-lg.px-3.my-5.markdown-body h1 a,
+  .container-lg.px-3.my-5.markdown-body h1 a:visited {
+    color: #333 !important; /* Override text color */
+    background-color: transparent !important; /* Remove any background */
+    text-decoration: none !important; /* No underline */
+    pointer-events: none; /* Disable it as a link */
+    cursor: default;
+  }
+
+  /* Hide the theme's automatically generated header (if it is separate from your custom header) */
+  .container-lg.px-3.my-5.markdown-body > h1:first-of-type {
+    display: none !important;
+  }
+
+  /* Custom header styling */
+  header h1 {
+    font-size: 32px;
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-weight: bold;
   }
 </style>
+
 </head>
 <body>
 
