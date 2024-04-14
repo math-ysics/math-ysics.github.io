@@ -84,7 +84,7 @@
 
   @media (max-width: 768px) {
     h1 {
-      font-size: 28px;
+      font-size: 22px;
     }
 
     h2 {
