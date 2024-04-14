@@ -141,5 +141,36 @@
 </section>
 </main>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Function to animate headers on hover
+    const headers = document.querySelectorAll('h1, h2');
+    headers.forEach(header => {
+        header.addEventListener('mouseenter', () => {
+            header.style.transition = 'transform 0.3s';
+            header.style.transform = 'scale(1.05)';
+        });
+        header.addEventListener('mouseleave', () => {
+            header.style.transition = 'transform 0.3s';
+            header.style.transform = 'scale(1)';
+        });
+    });
+
+    // Function to add shadow to images on hover
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+        img.addEventListener('mouseenter', () => {
+            img.style.transition = 'box-shadow 0.3s';
+            img.style.boxShadow = '0 4px 8px rgba(0,0,0,0.5)';
+        });
+        img.addEventListener('mouseleave', () => {
+            img.style.transition = 'box-shadow 0.3s';
+            img.style.boxShadow = 'none';
+        });
+    });
+});
+</script>
+
+
 </body>
 </html>
