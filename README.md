@@ -32,7 +32,7 @@
   /* Specific styles for flex containers to avoid reapplying backgrounds */
   div[style*="flex"] {
       background-color: rgba(255, 255, 255, 0); /* Essentially no background to avoid double layer */
-      padding: 5px;
+      padding: 6px;
   }
   
   /* Ensure the main tag itself does not add extra background beyond what its children have */
@@ -49,8 +49,9 @@
   }
 
   h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
 
   h2 {
@@ -123,7 +124,7 @@
 <body>
 
 <header>
-  <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
+  <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
 </header>
 <main>
 <section id="about">
