@@ -18,7 +18,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Optional: makes the background fixed during scrolling */
-    backdrop-filter: blur(10px); /* Apply Gaussian blur to the background image */
+    backdrop-filter: blur(5px); /* Apply Gaussian blur to the background image */
   }
 
   header, main, div[style*="flex"], section {
