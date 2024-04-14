@@ -12,7 +12,7 @@
     font-family: "Times New Roman", Times, serif;
     color: #333;
     line-height: 1.6;
-    padding: 0px;
+    padding: 10px;
     // background-color: #f4f4f9;
     background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png'); /* Add your desired background image URL here */
     background-size: cover;
@@ -23,8 +23,9 @@
 
   header, main, div[style*="flex"], section {
       background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
-      padding: 20px; /* Add padding to these elements if needed */
+      padding: 0px; /* Add padding to these elements if needed */
       border-radius: 10px; /* Optional: adds rounded corners to your content blocks */
+      margin-top: 40px;
   }
 
   h1, h2 {
@@ -110,7 +111,6 @@
   <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
 </header>
 <main>
-  margin-top: 40px;
 <section id="about">
   <h2>About Me</h2>
   <p>I'm interested in AI, statistics, theoretical astrophysics, and computational fluid dynamics.</p>
