@@ -10,10 +10,9 @@
 
   body {
     font-family: "Times New Roman", Times, serif;
-    color: #333;
+    color: white; /* Changed color to white */
     line-height: 1.6;
     padding: 10px;
-    // background-color: #f4f4f9;
     background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png'); /* Add your desired background image URL here */
     background-size: cover;
     background-position: center;
@@ -28,49 +27,34 @@
       margin-top: 20px; /* Top margin for spacing */
   }
   
-  /* Specific styles for flex containers to avoid reapplying backgrounds */
   div[style*="flex"] {
-      background-color: rgba(255, 255, 255, 0); /* Essentially no background to avoid double layer */
+      background-color: rgba(255, 255, 255, 0); /* No background */
       padding: 6px;
   }
   
-  /* Ensure the main tag itself does not add extra background beyond what its children have */
   main {
       background-color: rgba(255, 255, 255, 0); /* No additional background */
       padding: 10px;
       border-radius: 10px; /* Consistent rounded corners */
   }
 
-
   h1, h2 {
-      font-size: 24px; /* Same size as h2 */
+      font-size: 24px;
       margin-top: 20px;
       margin-bottom: 5px;
       font-weight: bold;
-      color: #0056b3;
-  }
-
-  h1 {
-    font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-
-  h2 {
-    font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 5px;
+      color: #0056b3; /* Blue color for headers */
   }
 
   p {
     font-size: 18px;
     font-style: italic;
-    color: #555;
+    color: #555; /* Light grey color for paragraphs */
     margin-bottom: 10px;
   }
 
   a {
-    color: #d6336c;
+    color: #d6336c; /* Pink color for links */
     text-decoration: none;
   }
 
@@ -85,35 +69,27 @@
   }
 
   @media (max-width: 768px) {
-    h1 {
+    h1, h2 {
       font-size: 22px;
     }
-
-    h2 {
-      font-size: 22px;
-    }
-
     p {
       font-size: 16px;
     }
   }
 
-  /* New style to override GitHub Pages theme styles */
   .container-lg.px-3.my-5.markdown-body h1 a,
   .container-lg.px-3.my-5.markdown-body h1 a:visited {
     color: #333 !important; /* Override text color */
-    background-color: transparent !important; /* Remove any background */
-    text-decoration: none !important; /* No underline */
-    pointer-events: none; /* Disable it as a link */
+    background-color: transparent !important;
+    text-decoration: none !important;
+    pointer-events: none;
     cursor: default;
   }
 
-  /* Hide the theme's automatically generated header (if it is separate from your custom header) */
   .container-lg.px-3.my-5.markdown-body > h1:first-of-type {
     display: none !important;
   }
 
-  /* Custom header styling */
   header h1 {
     font-size: 32px;
     color: #0056b3;
