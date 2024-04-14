@@ -13,11 +13,18 @@
     color: #333;
     line-height: 1.6;
     padding: 20px;
-    background-color: #f4f4f9;
+    // background-color: #f4f4f9;
+    background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png'); /* Add your desired background image URL here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: makes the background fixed during scrolling */
+    backdrop-filter: blur(10px); /* Apply Gaussian blur to the background image */
   }
 
-  header, main {
-    margin: 20px;
+  header, main, div[style*="flex"], section {
+      background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+      padding: 20px; /* Add padding to these elements if needed */
+      border-radius: 10px; /* Optional: adds rounded corners to your content blocks */
   }
 
   h1, h2 {
@@ -56,13 +63,6 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-  }
-
-  div[style*="flex"] {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
   }
 
   @media (max-width: 768px) {
