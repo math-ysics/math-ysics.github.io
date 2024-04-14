@@ -1,8 +1,5 @@
 <html>
 <head>
-
-<html>
-<head>
 <style>
   /* General styles */
   * {
@@ -13,7 +10,7 @@
 
   body {
     font-family: "Times New Roman", Times, serif;
-    color: white; /* Default text color set to white */
+    color: white; /* Setting default text color to white */
     line-height: 1.6;
     padding: 10px;
     background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png');
@@ -23,27 +20,33 @@
     backdrop-filter: blur(5px);
   }
 
-  /* Specific styles for sections and headers */
+  /* Specific background for content sections */
   main > header, main > section {
-      background-color: rgba(255, 255, 255, 0.55); /* Semi-transparent white background for general sections */
+      background-color: rgba(255, 255, 255, 0.55);
       padding: 20px;
       border-radius: 10px;
       margin-top: 20px;
   }
-
-  /* New class for special header */
-  .special-header {
-    background-color: rgba(255, 255, 255, 0.8); /* More opaque white background */
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px 0;
-    text-align: center; /* Center the text */
+  
+  /* Flex container specific rules */
+  div[style*="flex"] {
+      background-color: transparent;
+      padding: 6px;
+  }
+  
+  main {
+      background-color: transparent;
+      padding: 10px;
+      border-radius: 10px;
   }
 
+  /* Header styles */
   h1, h2 {
-    font-size: 24px;
-    color: #0056b3; /* Blue color for headers */
-    font-weight: bold;
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #0056b3; /* Keeping header colors blue */
   }
 
   /* Paragraph styles */
@@ -56,7 +59,7 @@
 
   /* Link styles */
   a {
-    color: #d6336c;
+    color: #d6336c; /* Pink color for links */
     text-decoration: none;
   }
 
@@ -74,16 +77,40 @@
     h1, h2 {
       font-size: 22px;
     }
+
     p {
       font-size: 16px;
     }
   }
+
+  /* Override styles for GitHub Pages or specific containers */
+  .container-lg.px-3.my-5.markdown-body h1 a,
+  .container-lg.px-3.my-5.markdown-body h1 a:visited {
+    color: #333 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .container-lg.px-3.my-5.markdown-body > h1:first-of-type {
+    display: none !important;
+  }
+
+  /* Custom header in the site's header section */
+  header h1 {
+    font-size: 32px;
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
 </style>
+
 
 </head>
 <body>
 
-<header class="special-header">
+<header>
   <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
 </header>
 <main>
