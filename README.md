@@ -143,7 +143,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // Animation for headers and images
+    // Function to animate headers on hover
     const headers = document.querySelectorAll('h1, h2');
     headers.forEach(header => {
         header.addEventListener('mouseenter', () => {
@@ -156,6 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    // Function to add shadow to images on hover
     const images = document.querySelectorAll('img');
     images.forEach(img => {
         img.addEventListener('mouseenter', () => {
@@ -167,29 +168,8 @@ document.addEventListener('DOMContentLoaded', function () {
             img.style.boxShadow = 'none';
         });
     });
-
-    // Animation for specific links
-    const linkTexts = ['opportunity', 'curiosity', 'perseverance'];
-    linkTexts.forEach(text => {
-        const links = document.querySelectorAll(`a[href*="${text}"]`);
-        links.forEach(link => {
-            link.addEventListener('mouseenter', () => {
-                link.style.transition = 'transform 0.3s, color 0.3s';
-                link.style.transform = 'rotate(5deg)';
-                link.style.color = '#ff6347'; // Tomato color
-            });
-            link.addEventListener('mouseleave', () => {
-                link.style.transition = 'transform 0.3s, color 0.3s';
-                link.style.transform = 'rotate(0deg)';
-                link.style.color = '#d6336c'; // Original color from your CSS
-            });
-        });
-    });
 });
 </script>
-
-
-
 
 </body>
 </html>
