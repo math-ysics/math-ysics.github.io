@@ -19,7 +19,7 @@ p {
 <section id="about">
   <h2>About Me</h2>
   <p>I'm interested in AI, statistics, theoretical astrophysics, and computational fluid dynamics.</p>
-  <p>In research, I am a firm believer of the words Opportunity, Curiosity, and Perseverance (the names of NASA/Caltech/JPL's most recent 3 Mars rovers).</p>
+  <p>In research, I am a firm believer of (<a href="https://science.nasa.gov/mission/mer-opportunity/">Opportunity</a>), (<a href="https://mars.nasa.gov/msl/home/">Curiosity</a>), and (<a href="https://mars.nasa.gov/mars2020/">Perseverance</a>).</p>
   <h2>Quote:</h2>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png" /></a>
   <h2>Enjoy some of my graphs!</h2>
