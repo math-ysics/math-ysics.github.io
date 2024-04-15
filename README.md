@@ -129,7 +129,7 @@
   }
 
   .resized-centered-img {
-    width: 80%; /* Resize to 80% of the original width */
+    width: 65%; /* Resize to x% of the original width */
     display: block; /* Makes the image block level for margin auto to work */
     margin: 0 auto; /* Centers the image horizontally */
   }
