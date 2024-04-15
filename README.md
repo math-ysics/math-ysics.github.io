@@ -127,6 +127,13 @@
   .appear {
       opacity: 1;
   }
+
+  .resized-centered-img {
+    width: 80%; /* Resize to 80% of the original width */
+    display: block; /* Makes the image block level for margin auto to work */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+
 </style>
 
 
@@ -146,12 +153,12 @@
   <hr>
   <p>Harmony of red and blue:</p>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png">
-    <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png" style="width: 80%;" />
+    <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png" class="resized-centered-img" />
   </a>
   <hr>
   <p>A beautiful set!</p>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png">
-    <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png" style="width: 80%;" />
+    <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png" class="resized-centered-img" />
   </a>
   <hr>
   <p>Have some purple:</p>
