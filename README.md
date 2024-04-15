@@ -112,6 +112,12 @@
     margin-bottom: 10px;
     font-weight: bold;
   }
+    /* New styles for purple images */
+  .purple-images img {
+    height: 200px; /* Set a fixed height for all purple images */
+    width: auto; /* Adjust width automatically to maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the assigned area */
+  }
 </style>
 
 
@@ -137,17 +143,19 @@
   <hr>
   <p>Purple:</p>
   <div style="display: flex;">
-    <div style="flex: 1;">
-      <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" height="200" /></a>
-    </div>
-    <div style="flex: 1;">
-      <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png" height="200" /></a>
-    </div>
-    <div style="flex: 1;">
-      <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png" height="200" /></a>
-    </div>
-    <div style="flex: 1;">
-      <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" height="200" /></a>
+    <div style="display: flex;" class="purple-images">
+        <div style="flex: 1;">
+          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" /></a>
+        </div>
+        <div style="flex: 1;">
+          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png" /></a>
+        </div>
+        <div style="flex: 1;">
+          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png" /></a>
+        </div>
+        <div style="flex: 1;">
+          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" /></a>
+        </div>
     </div>
   </div>
 </section>
