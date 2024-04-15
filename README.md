@@ -31,7 +31,7 @@
   /* Flex container specific rules */
   div[style*="flex"] {
       background-color: transparent;
-      padding: 6px;
+      padding: 7px;
   }
   
   main {
@@ -226,7 +226,7 @@ function addShadowToImages() {
         img.addEventListener('mouseenter', () => {
             img.style.transition = 'box-shadow 0.3s, transform 0.3s'; // Added transform to the transition
             img.style.boxShadow = '0 4px 8px rgba(0,0,0,0.5)';
-            img.style.transform = 'scale(1.05)'; // Scale the image up
+            img.style.transform = 'scale(1.03)'; // Scale the image up
         });
         img.addEventListener('mouseleave', () => {
             img.style.transition = 'box-shadow 0.3s, transform 0.3s'; // Ensure the transition applies to transform as well
