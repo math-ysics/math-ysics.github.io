@@ -46,7 +46,7 @@
       margin-top: 20px;
       margin-bottom: 5px;
       font-weight: bold;
-      color: #d6336c; /* Changed to match the link color */
+      color: #e71b23; /* Changed to match the link color */
   }
   
   /* Custom header in the site's header section */
