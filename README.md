@@ -166,7 +166,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Existing animations
     animateHeaders();
     addShadowToImages();
-  
+    fadeInOnScroll();
+
     // Enhanced Smooth Scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -221,6 +222,31 @@ function addShadowToImages() {
             img.style.transition = 'box-shadow 0.3s';
             img.style.boxShadow = 'none';
         });
+    });
+}
+
+function fadeInOnScroll() {
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = {
+        threshold: 0.5,
+        rootMargin: "0px"
+    };
+    const appearOnScroll = new IntersectionObserver(function(
+        entries,
+        appearOnScroll
+    ) {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else {
+                entry.target.classList.add('appear');
+                appearOnScroll.unobserve(entry.target);
+            }
+        });
+    }, appearOptions);
+
+    faders.forEach(fader => {
+        appearOnScroll.observe(fader);
     });
 }
 </script>
