@@ -46,13 +46,13 @@
       margin-top: 20px;
       margin-bottom: 5px;
       font-weight: bold;
-      color: #e71b23; /* Changed to match the link color */
+      color: #e83138; /* Changed to match the link color */
   }
   
   /* Custom header in the site's header section */
   header h1 {
       font-size: 32px;
-      color: #e71b23; /* Ensuring consistency for all headers */
+      color: #e83138; /* Ensuring consistency for all headers */
       margin-bottom: 10px;
       font-weight: bold;
   }
@@ -67,7 +67,7 @@
 
   /* Link styles */
   a {
-    color: #e71b23; /* Pink color for links */
+    color: #e83138; /* Pink color for links */
     text-decoration: none;
   }
 
