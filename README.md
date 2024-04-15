@@ -52,7 +52,7 @@
   /* Custom header in the site's header section */
   header h1 {
       font-size: 32px;
-      color: #d6336c; /* Ensuring consistency for all headers */
+      color: #e71b23; /* Ensuring consistency for all headers */
       margin-bottom: 10px;
       font-weight: bold;
   }
@@ -67,7 +67,7 @@
 
   /* Link styles */
   a {
-    color: #d6336c; /* Pink color for links */
+    color: #e71b23; /* Pink color for links */
     text-decoration: none;
   }
 
