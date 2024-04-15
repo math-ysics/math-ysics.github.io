@@ -22,7 +22,7 @@
 
   /* Specific background for content sections */
   main > header, main > section {
-      background-color: rgba(255, 255, 255, 0.38);
+      background-color: rgba(255, 255, 255, 0.08);
       padding: 20px;
       border-radius: 10px;
       margin-top: 20px;
