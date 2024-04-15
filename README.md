@@ -118,6 +118,15 @@
     width: auto; /* Adjust width automatically to maintain aspect ratio */
     object-fit: cover; /* Ensures the image covers the assigned area */
   }
+
+  .fade-in {
+      opacity: 0;
+      transition: opacity 0.5s;
+  }
+  
+  .appear {
+      opacity: 1;
+  }
 </style>
 
 
