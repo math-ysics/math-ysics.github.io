@@ -46,7 +46,15 @@
       margin-top: 20px;
       margin-bottom: 5px;
       font-weight: bold;
-      color: #0056b3; /* Keeping header colors blue */
+      color: #d6336c; /* Changed to match the link color */
+  }
+  
+  /* Custom header in the site's header section */
+  header h1 {
+      font-size: 32px;
+      color: #d6336c; /* Ensuring consistency for all headers */
+      margin-bottom: 10px;
+      font-weight: bold;
   }
 
   /* Paragraph styles */
@@ -111,7 +119,7 @@
 <body>
 
 <header>
-  <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
+  <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
 </header>
 <main>
 <section id="about">
