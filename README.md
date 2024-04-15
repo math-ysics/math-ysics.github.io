@@ -163,7 +163,58 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // Function to animate headers on hover
+    // Existing animations
+    animateHeaders();
+    addShadowToImages();
+
+    // Smooth Scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Dynamic Background Opacity on Scroll
+    window.addEventListener('scroll', () => {
+        const scroll = window.pageYOffset || document.documentElement.scrollTop;
+        document.querySelectorAll('main > header, main > section').forEach(section => {
+            section.style.backgroundColor = `rgba(255, 255, 255, ${Math.min(0.9, 0.55 + scroll / 1000)})`;
+        });
+    });
+
+    // Expandable Sections
+    document.querySelectorAll('section').forEach(section => {
+        section.addEventListener('click', function () {
+            this.classList.toggle('expanded');
+            const content = this.querySelector('p');
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+        });
+    });
+
+    // Tooltip Information
+    document.querySelectorAll('[data-tooltip]').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            const tooltip = document.createElement('div');
+            tooltip.textContent = item.getAttribute('data-tooltip');
+            tooltip.className = 'tooltip';
+            document.body.appendChild(tooltip);
+            tooltip.style.top = `${item.offsetTop + item.offsetHeight}px`;
+            tooltip.style.left = `${item.offsetLeft}px`;
+        });
+        item.addEventListener('mouseleave', () => {
+            document.querySelector('.tooltip').remove();
+        });
+    });
+});
+
+function animateHeaders() {
     const headers = document.querySelectorAll('h1, h2');
     headers.forEach(header => {
         header.addEventListener('mouseenter', () => {
@@ -175,8 +226,9 @@ document.addEventListener('DOMContentLoaded', function () {
             header.style.transform = 'scale(1)';
         });
     });
+}
 
-    // Function to add shadow to images on hover
+function addShadowToImages() {
     const images = document.querySelectorAll('img');
     images.forEach(img => {
         img.addEventListener('mouseenter', () => {
@@ -188,8 +240,9 @@ document.addEventListener('DOMContentLoaded', function () {
             img.style.boxShadow = 'none';
         });
     });
-});
+}
 </script>
+
 
 </body>
 </html>
