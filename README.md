@@ -166,35 +166,17 @@ document.addEventListener('DOMContentLoaded', function () {
     // Existing animations
     animateHeaders();
     addShadowToImages();
-
-    // Smooth Scrolling
+  
+    // Enhanced Smooth Scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
+            const targetId = this.getAttribute('href');
+            const targetPosition = document.querySelector(targetId).offsetTop;
+            window.scrollTo({
+                top: targetPosition - 10, // Adjusts to stop slightly before the section for a better view, if needed
                 behavior: 'smooth'
             });
-        });
-    });
-
-    // Dynamic Background Opacity on Scroll
-    window.addEventListener('scroll', () => {
-        const scroll = window.pageYOffset || document.documentElement.scrollTop;
-        document.querySelectorAll('main > header, main > section').forEach(section => {
-            section.style.backgroundColor = `rgba(255, 255, 255, ${Math.min(0.9, 0.55 + scroll / 1000)})`;
-        });
-    });
-
-    // Expandable Sections
-    document.querySelectorAll('section').forEach(section => {
-        section.addEventListener('click', function () {
-            this.classList.toggle('expanded');
-            const content = this.querySelector('p');
-            if (content.style.display === 'block') {
-                content.style.display = 'none';
-            } else {
-                content.style.display = 'block';
-            }
         });
     });
 
