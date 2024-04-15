@@ -150,7 +150,7 @@
   <p>A beautiful set!</p>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png" /></a>
   <hr>
-  <p>Purple:</p>
+  <p>Have some purple:</p>
   <div style="display: flex;">
     <div style="display: flex;" class="purple-images">
         <div style="flex: 1;">
