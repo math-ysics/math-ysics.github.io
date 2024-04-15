@@ -9,15 +9,15 @@
   }
 
   body {
-    font-family: "Times New Roman", Times, serif;
-    color: white; /* Setting default text color to white */
-    line-height: 1.6;
-    padding: 10px;
-    background-image: url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    backdrop-filter: blur(5px);
+      font-family: "Times New Roman", Times, serif;
+      color: white; /* Setting default text color to white */
+      line-height: 1.6;
+      padding: 10px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      backdrop-filter: blur(5px);
   }
 
   /* Specific background for content sections */
