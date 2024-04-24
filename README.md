@@ -143,6 +143,7 @@
 <header>
   <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
 </header>
+
 <main>
 <section id="about">
   <h2>About Me</h2>
@@ -151,7 +152,7 @@
   <hr>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png" /></a>
   <hr>
-  <p>Harmony of red and blue:</p>
+  <!-- <p>Harmony of red and blue:</p>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png">
     <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png" class="resized-centered-img" />
   </a>
@@ -177,7 +178,7 @@
           <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" /></a>
         </div>
     </div>
-  </div>
+  </div> -->
 </section>
 </main>
 
