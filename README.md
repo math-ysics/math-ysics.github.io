@@ -10,14 +10,20 @@
 
   body {
       font-family: "Times New Roman", Times, serif;
-      color: white; /* Setting default text color to white */
+      color: white; /* Maintaining the default text color as white */
       line-height: 1.6;
       padding: 10px;
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      backdrop-filter: blur(5px);
+      background-repeat: no-repeat; /* Ensure the background does not repeat */
+      height: 100vh; /* Set the minimum height to 100% of the viewport height */
+      min-height: 100%; /* Ensures minimum height is the full height of the content or viewport */
+      width: 100vw; /* Cover the full viewport width */
+      position: relative; /* Needed for fixed positioning context */
+      overflow: auto; /* Allow scrolling on the page */
+      backdrop-filter: blur(5px); /* Apply blur effect across the entire background */
   }
 
   /* Specific background for content sections */
@@ -35,9 +41,12 @@
   }
   
   main {
-      background-color: transparent;
-      padding: 10px;
+      background-color: transparent; /* Keeping main content transparent */
+      padding: 20px;
       border-radius: 10px;
+      margin-top: 20px;
+      position: relative; /* Positioned within the context of the body */
+      z-index: 2; /* Ensure it is above the blurred background */
   }
 
   /* Header styles */
