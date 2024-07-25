@@ -143,6 +143,22 @@
     margin: 0 auto; /* Centers the image horizontally */
   }
 
+  .quote-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.38);
+    border-radius: 10px;
+}
+
+.quote-section q {
+    font-size: 28px;
+    color: #eb3d44; /* Red color to match the headers */
+    font-style: italic;
+    display: block;
+    margin-bottom: 10px;
+}
+
 </style>
 
 
@@ -152,6 +168,10 @@
 <header>
   <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
 </header>
+
+<section class="quote-section">
+  <q>Be stochastic.</q>
+</section>
 
 <main>
 <section id="about">
