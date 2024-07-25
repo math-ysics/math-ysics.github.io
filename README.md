@@ -1,7 +1,6 @@
 <html>
 <head>
 <style>
-  /* General styles */
   * {
     margin: 0;
     padding: 0;
@@ -18,48 +17,40 @@
       background-position: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
-      height: 100vh;
-      min-height: 100%;
+      min-height: 100vh;
       width: 100vw;
       position: relative;
-      overflow: auto;
+      overflow-x: hidden;
       backdrop-filter: blur(5px);
   }
 
   .content-wrapper {
-      max-width: 800px;
+      max-width: 1000px; /* Increased from 800px for wider sections */
       margin: 0 auto;
       padding: 20px;
   }
 
   .quote-section, #about {
       background-color: rgba(255, 255, 255, 0.38);
-      padding: 40px 20px;
+      padding: 40px;
       border-radius: 10px;
       margin: 20px 0;
       text-align: center;
   }
 
   h1, h2 {
-      font-size: 24px;
+      font-size: 28px; /* Increased from 24px */
       margin-top: 20px;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
       font-weight: bold;
       color: #eb3d44;
-  }
-  
-  header h2 {
-      font-size: 32px;
-      color: #eb3d44;
-      margin-bottom: 10px;
-      font-weight: bold;
   }
 
   p {
     font-size: 18px;
     font-style: italic;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   a {
@@ -75,10 +66,11 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-top: 20px;
   }
 
   .quote-section q {
-      font-size: 38px;
+      font-size: 42px; /* Increased from 38px */
       color: #eb3d44;
       font-style: italic;
       font-weight: bold;
@@ -92,12 +84,17 @@
   }
 
   @media (max-width: 768px) {
-    h1, h2 {
-      font-size: 22px;
+    .content-wrapper {
+      padding: 10px;
     }
-
+    h1, h2 {
+      font-size: 24px;
+    }
     p {
       font-size: 16px;
+    }
+    .quote-section q {
+      font-size: 32px;
     }
   }
 
@@ -114,9 +111,9 @@
 <body>
 
 <div class="content-wrapper">
-  <header>
-    <h2>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h2>
-  </header>
+  <section id="intro">
+    <h1>Hi, I'm Michael, an undergraduate student at the California Institute of Technology.</h1>
+  </section>
 
   <section class="quote-section">
     <q>Be stochastic.</q>
@@ -126,8 +123,7 @@
     <h2>About Me</h2>
     <p>I'm interested in AI, statistics, theoretical astrophysics, and computational fluid dynamics.</p>
     <p>In research, I believe we should embody <a href="https://science.nasa.gov/mission/mer-opportunity/">opportunity</a>, <a href="https://mars.nasa.gov/msl/home/">curiosity</a>, and <a href="https://mars.nasa.gov/mars2020/">perseverance</a>.</p>
-    <hr>
-    <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png" /></a>
+    <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png" alt="Quote" />
   </section>
 </div>
 
