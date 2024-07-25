@@ -144,20 +144,27 @@
   }
 
   .quote-section {
-    text-align: center;
-    padding: 40px 20px;
-    margin: 20px 0;
-    background-color: rgba(255, 255, 255, 0.38);
-    border-radius: 10px;
-}
-
-.quote-section q {
-    font-size: 28px;
-    color: #eb3d44; /* Red color to match the headers */
-    font-style: italic;
-    display: block;
-    margin-bottom: 10px;
-}
+      text-align: center;
+      padding: 40px 20px;
+      margin: 20px 0;
+      background-color: rgba(255, 255, 255, 0.38);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px; /* Adjust this value to make the section taller if needed */
+  }
+  
+  .quote-section q {
+      font-size: 48px; /* Increased font size */
+      color: #eb3d44; /* Red color to match the headers */
+      font-style: italic;
+      font-weight: bold; /* Made the text bold */
+      display: block;
+      margin: 0;
+      line-height: 1.2; /* Adjusted line height for better spacing */
+      max-width: 80%; /* Ensures the quote doesn't stretch too wide on large screens */
+  }
 
 </style>
 
