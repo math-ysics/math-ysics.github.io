@@ -152,18 +152,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 200px; /* Adjust this value to make the section taller if needed */
+      min-height: 200px;
+      transition: transform 0.3s ease; /* Add transition for smooth effect */
   }
   
   .quote-section q {
-      font-size: 48px; /* Increased font size */
-      color: #eb3d44; /* Red color to match the headers */
+      font-size: 38px;
+      color: #eb3d44;
       font-style: italic;
-      font-weight: bold; /* Made the text bold */
+      font-weight: bold;
       display: block;
       margin: 0;
-      line-height: 1.2; /* Adjusted line height for better spacing */
-      max-width: 80%; /* Ensures the quote doesn't stretch too wide on large screens */
+      line-height: 1.2;
+      max-width: 80%;
+      transition: transform 0.3s ease; /* Add transition for smooth effect */
   }
 
 </style>
@@ -255,15 +257,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function animateHeaders() {
-    const headers = document.querySelectorAll('h1, h2');
-    headers.forEach(header => {
-        header.addEventListener('mouseenter', () => {
-            header.style.transition = 'transform 0.3s';
-            header.style.transform = 'scale(1.05)';
+    const elements = document.querySelectorAll('h1, h2, .quote-section');
+    elements.forEach(element => {
+        element.addEventListener('mouseenter', () => {
+            element.style.transition = 'transform 0.3s';
+            element.style.transform = 'scale(1.05)';
         });
-        header.addEventListener('mouseleave', () => {
-            header.style.transition = 'transform 0.3s';
-            header.style.transform = 'scale(1)';
+        element.addEventListener('mouseleave', () => {
+            element.style.transition = 'transform 0.3s';
+            element.style.transform = 'scale(1)';
         });
     });
 }
