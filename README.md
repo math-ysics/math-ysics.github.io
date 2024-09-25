@@ -168,11 +168,10 @@
       transition: transform 0.3s ease; /* Add transition for smooth effect */
   }
 
-  /* New style for the poem */
+  /* Updated style for the poem */
   .poem {
     font-style: italic;
-    color: red;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    color: #eb3d44; /* Changed to match the link color */
     margin-top: 20px;
     text-align: center;
     font-size: 18px;
