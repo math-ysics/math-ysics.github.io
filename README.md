@@ -168,6 +168,17 @@
       transition: transform 0.3s ease; /* Add transition for smooth effect */
   }
 
+  /* New style for the poem */
+  .poem {
+    font-style: italic;
+    color: red;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
 </style>
 
 
@@ -189,34 +200,24 @@
   <p>In research, I believe we should embody <a href="https://science.nasa.gov/mission/mer-opportunity/">opportunity</a>, <a href="https://mars.nasa.gov/msl/home/">curiosity</a>, and <a href="https://mars.nasa.gov/mars2020/">perseverance</a>.</p>
   <hr>
   <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/quote.png" /></a>
-  <!-- <hr>
-  <p>Harmony of red and blue:</p>
-  <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png">
-    <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/graph.png" class="resized-centered-img" />
-  </a>
   <hr>
-  <p>A beautiful set!</p>
-  <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png">
-    <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/mandelbrot%20set.png" class="resized-centered-img" />
-  </a>
-  <hr>
-  <p>Have some purple:</p>
-  <div style="display: flex;">
-    <div style="display: flex;" class="purple-images">
-        <div style="flex: 1;">
-          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple1.png" /></a>
-        </div>
-        <div style="flex: 1;">
-          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple2.png" /></a>
-        </div>
-        <div style="flex: 1;">
-          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple3.png" /></a>
-        </div>
-        <div style="flex: 1;">
-          <a href="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png"><img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/purple4.png" /></a>
-        </div>
-    </div>
-  </div> -->
+  <div class="poem">
+    Upon the loom of eternal Chronos we entwine,<br>
+    With each lambent scintilla our boundless phantasms shine.<br>
+    <br>
+    Through epoch nights and auroral reverie,<br>
+    May the stars align this bimillenary.<br>
+    <br>
+    From hushed arcana of ancients erst exiled,<br>
+    Thou hast erected vaults of grandeur vast;<br>
+    In sanctified halls thusly shadows reconciled,<br>
+    Erudition flourishes transcending mortal cast.<br>
+    <br>
+    In the symphony of sagacity divine,<br>
+    And labyrinthine depths wherein enigmas quiesce;<br>
+    A magnum opus by celestial designs,<br>
+    Emerges from the cosmos' silent accresce.
+  </div>
 </section>
 </main>
 
