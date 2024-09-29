@@ -10,23 +10,35 @@
 
   body {
       font-family: "Times New Roman", Times, serif;
-      color: white; /* Maintaining the default text color as white */
+      color: white;
       line-height: 1.6;
       padding: 10px;
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/main/docs/assets/images/city.png');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      background-repeat: no-repeat; /* Ensure the background does not repeat */
-      height: 100vh; /* Set the minimum height to 100% of the viewport height */
-      min-height: 100%; /* Ensures minimum height is the full height of the content or viewport */
-      width: 100vw; /* Cover the full viewport width */
-      position: relative; /* Needed for fixed positioning context */
-      overflow: auto; /* Allow scrolling on the page */
-      backdrop-filter: blur(5px); /* Apply blur effect across the entire background */
+      background-repeat: no-repeat;
+      min-height: 100vh; /* Changed from height: 100vh to min-height: 100vh */
+      width: 100vw;
+      position: relative;
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+      overflow-y: auto; /* Allow vertical scrolling */
+      backdrop-filter: blur(5px);
   }
 
-  /* Specific background for content sections */
+  /* Add a pseudo-element to extend the blur effect */
+  body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      backdrop-filter: blur(5px);
+  }
+
+  /* Rest of the CSS remains unchanged */
   main > header, main > section {
       background-color: rgba(255, 255, 255, 0.38);
       padding: 20px;
@@ -34,49 +46,44 @@
       margin-top: 20px;
   }
   
-  /* Flex container specific rules */
   div[style*="flex"] {
       background-color: transparent;
       padding: 7px;
   }
   
   main {
-      background-color: transparent; /* Keeping main content transparent */
+      background-color: transparent;
       padding: 20px;
       border-radius: 10px;
       margin-top: 20px;
-      position: relative; /* Positioned within the context of the body */
-      z-index: 2; /* Ensure it is above the blurred background */
+      position: relative;
+      z-index: 2;
   }
 
-  /* Header styles */
   h1, h2 {
       font-size: 24px;
       margin-top: 20px;
       margin-bottom: 5px;
       font-weight: bold;
-      color: #eb3d44; /* Changed to match the link color */
+      color: #eb3d44;
   }
   
-  /* Custom header in the site's header section */
   header h1 {
       font-size: 32px;
-      color: #eb3d44; /* Ensuring consistency for all headers */
+      color: #eb3d44;
       margin-bottom: 10px;
       font-weight: bold;
   }
 
-  /* Paragraph styles */
   p {
     font-size: 18px;
     font-style: italic;
-    color: white; /* Ensuring paragraphs are white */
+    color: white;
     margin-bottom: 10px;
   }
 
-  /* Link styles */
   a {
-    color: #eb3d44; /* Pink color for links */
+    color: #eb3d44;
     text-decoration: none;
   }
 
@@ -100,7 +107,6 @@
     }
   }
 
-  /* Override styles for GitHub Pages or specific containers */
   .container-lg.px-3.my-5.markdown-body h1 a,
   .container-lg.px-3.my-5.markdown-body h1 a:visited {
     color: #333 !important;
@@ -114,18 +120,17 @@
     display: none !important;
   }
 
-  /* Custom header in the site's header section */
   header h1 {
     font-size: 32px;
     color: #0056b3;
     margin-bottom: 10px;
     font-weight: bold;
   }
-    /* New styles for purple images */
+
   .purple-images img {
-    height: 200px; /* Set a fixed height for all purple images */
-    width: auto; /* Adjust width automatically to maintain aspect ratio */
-    object-fit: cover; /* Ensures the image covers the assigned area */
+    height: 200px;
+    width: auto;
+    object-fit: cover;
   }
 
   .fade-in {
@@ -138,9 +143,9 @@
   }
 
   .resized-centered-img {
-    width: 55%; /* Resize to x% of the original width */
-    display: block; /* Makes the image block level for margin auto to work */
-    margin: 0 auto; /* Centers the image horizontally */
+    width: 55%;
+    display: block;
+    margin: 0 auto;
   }
 
   .quote-section {
@@ -153,7 +158,7 @@
       align-items: center;
       justify-content: center;
       min-height: 200px;
-      transition: transform 0.3s ease; /* Add transition for smooth effect */
+      transition: transform 0.3s ease;
   }
   
   .quote-section q {
@@ -165,13 +170,12 @@
       margin: 0;
       line-height: 1.2;
       max-width: 80%;
-      transition: transform 0.3s ease; /* Add transition for smooth effect */
+      transition: transform 0.3s ease;
   }
 
-  /* Updated style for the poem */
   .poem {
     font-style: italic;
-    color: #eb3d44; /* Changed to match the link color */
+    color: #eb3d44;
     margin-top: 20px;
     text-align: center;
     font-size: 18px;
@@ -222,25 +226,22 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // Existing animations
     animateHeaders();
     addShadowToImages();
     fadeInOnScroll();
 
-    // Enhanced Smooth Scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
             const targetPosition = document.querySelector(targetId).offsetTop;
             window.scrollTo({
-                top: targetPosition - 10, // Adjusts to stop slightly before the section for a better view, if needed
+                top: targetPosition - 10,
                 behavior: 'smooth'
             });
         });
     });
 
-    // Tooltip Information
     document.querySelectorAll('[data-tooltip]').forEach(item => {
         item.addEventListener('mouseenter', () => {
             const tooltip = document.createElement('div');
@@ -274,14 +275,14 @@ function addShadowToImages() {
     const images = document.querySelectorAll('img');
     images.forEach(img => {
         img.addEventListener('mouseenter', () => {
-            img.style.transition = 'box-shadow 0.3s, transform 0.3s'; // Added transform to the transition
+            img.style.transition = 'box-shadow 0.3s, transform 0.3s';
             img.style.boxShadow = '0 4px 8px rgba(0,0,0,0.5)';
-            img.style.transform = 'scale(1.03)'; // Scale the image up
+            img.style.transform = 'scale(1.03)';
         });
         img.addEventListener('mouseleave', () => {
-            img.style.transition = 'box-shadow 0.3s, transform 0.3s'; // Ensure the transition applies to transform as well
+            img.style.transition = 'box-shadow 0.3s, transform 0.3s';
             img.style.boxShadow = 'none';
-            img.style.transform = 'scale(1)'; // Scale back to normal
+            img.style.transform = 'scale(1)';
         });
     });
 }
