@@ -1,6 +1,7 @@
 ---
 title: "Ramifications of Low-Level Backing on Supercell Intensity and Longevity"
 collection: publications
+category: conferences
 permalink: /publication/2022-10-25-ramifications-of-low-level-backing-on-supercell-intensity-and-longevity
 excerpt: 'Independent Research.'
 date: 2022-10-25
