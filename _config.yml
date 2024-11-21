@@ -183,6 +183,8 @@ exclude:
   - README
   - tmp
   - vendor
+  - _pages_backup
+  - _content_backup
 keep_files:
   - .git
   - .svn
