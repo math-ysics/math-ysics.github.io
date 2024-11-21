@@ -76,6 +76,12 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
       {% endif %}
+      {% if author.huggingface %}
+        <li><a href="{{ author.huggingface }}"><i class="fas fa-fw fa-robot icon-pad-right" aria-hidden="true"></i>HuggingFace</a></li>
+      {% endif %}
+      {% if author.codeforces %}
+        <li><a href="{{ author.codeforces }}"><i class="fas fa-fw fa-code icon-pad-right" aria-hidden="true"></i>Codeforces</a></li>
+      {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      
