@@ -10,18 +10,17 @@
   width: 100%;
   clear: both;
   /* sticky footer fix start */
-  position: absolute;
-  bottom: 0em;
-  height: auto;
+  position: relative;  /* changed from absolute to relative */
+  height: 0;          /* changed from auto to 0 */
   /* sticky footer fix end */
-  margin-top: 3em;
+  margin-top: 0;      /* changed from 3em to 0 */
   color: mix(#fff, $gray, 25%);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  background-color: transparent;  /* changed from $lighter-gray to transparent */
+  border-top: none;              /* removed border */
 
   footer {
     @include clearfix;
