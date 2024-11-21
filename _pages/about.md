@@ -13,4 +13,4 @@ Prior to the Institute, my research experience includes work on optimization of 
 
 I also dabbled in some pre-college competitions (USA Team Selection Tests for <a href="https://en.wikipedia.org/wiki/International_Science_Olympiad">International Science Olympiads</a>, independent research for the <a href="https://en.wikipedia.org/wiki/Regeneron_Science_Talent_Search">Science Talent Search</a>, <a href="https://en.wikipedia.org/wiki/Science_Olympiad">Science Olympiad</a> National Tournament, and the <a href="https://en.wikipedia.org/wiki/National_Science_Bowl">National Science Bowl</a> National Finals).
 
-You can contact me at [first initial] h [last] @ caltech . edu
+*You can contact me at [first initial] h [last] @ caltech . edu*
