@@ -13,4 +13,4 @@ Prior to the Institute, my research aimed to optimize tornadogenesis and paramet
 
 I also dabbled in some pre-college competitions (USA Team Selection Tests for <a href="https://en.wikipedia.org/wiki/International_Science_Olympiad">International Science Olympiads</a>, independent research for the <a href="https://en.wikipedia.org/wiki/Regeneron_Science_Talent_Search">Science Talent Search</a>, <a href="https://en.wikipedia.org/wiki/Science_Olympiad">Science Olympiad</a> National Tournament, and the <a href="https://en.wikipedia.org/wiki/National_Science_Bowl">National Science Bowl</a> National Finals).
 
-*One shall direct their correspondence to [first initial] + h + [last] + [at] + caltech [dot] edu*
+*One shall direct their correspondence to [first initial] + h + [last] + [at] + caltech + [dot] + edu*
