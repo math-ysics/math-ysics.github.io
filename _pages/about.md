@@ -15,4 +15,4 @@ I also dabbled in some pre-college competitions (USA Team Selection Tests for <a
 
 *One shall direct their correspondence to [first initial] + h + [last] + [at] + caltech + [dot] + edu*
 
-<img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/refs/heads/master/images/quote.png" alt="Quote">
+# <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/refs/heads/master/images/quote.png" alt="Quote">
