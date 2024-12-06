@@ -20,13 +20,13 @@ Welcome to my personal blog! Some of the content you'll encounter here might be 
 
 [soon]
 
-**Entry #4. On the Fermi Paradox.**
+**Entry #4. On the Fermi paradox.**
 
 [soon]
 
 **Entry #3. The impact of Microsoft Flight Simulator X.**
 
-[soon][geodesics?]
+[soon][geodesics?][conditional probability?][emergencies?]
 
 **Entry #2. Why I don't like talking about my past.**
 
