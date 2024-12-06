@@ -22,18 +22,18 @@ Perhaps this is not a profound chain of thought, but rather a clearer, more obje
 
 **Entry #0. A Poem.**
 
-*Upon the loom of eternal Chronos we entwine,*
-*With each lambent scintilla our boundless phantasms shine.*
+*Upon the loom of eternal Chronos we entwine,*  
+*With each lambent scintilla our boundless phantasms shine.*  
 
-*Through epoch nights and auroral reverie,*
-*May the stars align this bimillenary.*
+*Through epoch nights and auroral reverie,*  
+*May the stars align this bimillenary.*  
 
-*From hushed arcana of ancients erst exiled,*
-*Thou hast erected vaults of grandeur vast;*
-*In sanctified halls thusly shadows reconciled,*
-*Erudition flourishes transcending mortal cast.*
+*From hushed arcana of ancients erst exiled,*  
+*Thou hast erected vaults of grandeur vast;*  
+*In sanctified halls thusly shadows reconciled,*  
+*Erudition flourishes transcending mortal cast.*  
 
-*In the symphony of sagacity divine,*
-*And labyrinthine depths wherein enigmas quiesce;*
-*A magnum opus by celestial designs,*
+*In the symphony of sagacity divine,*  
+*And labyrinthine depths wherein enigmas quiesce;*  
+*A magnum opus by celestial designs,*  
 *Emerges from the cosmos' silent accresce.*
