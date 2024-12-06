@@ -14,7 +14,7 @@ Welcome to my personal blog! Some of the content you'll encounter here might be 
 
 **Entry #2. Why I don't like talking about my past.**
 
-I find it a matter of scarce interest, and thus I refrain from its mention unless it is strictly apposite to some circumstance that warrants such discourse. I've adopted the philosophy of conducting life with "professionalism", a notion imparted unto me by a companion of admirable refinement; it strikes me as a paragon of elegance, far preferable to its baser antipodes. This sentiment began brewing since I was thirteen, but I think the present moment is time for its enactment.
+I find it a matter of scarce interest, and thus I refrain from its mention unless it is strictly apposite to some circumstance that warrants such discourse. I have adopted the philosophy of conducting life with "professionalism", a notion imparted unto me by a companion of admirable refinement; it strikes me as a paragon of elegance, far preferable to its baser antipodes. This sentiment began brewing since I was thirteen, but I think the present moment is time for its enactment.
 
 **Entry #1. Why I embrace nihilism.**
 
