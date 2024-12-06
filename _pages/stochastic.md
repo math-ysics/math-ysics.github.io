@@ -8,6 +8,10 @@ Welcome to my personal blog! Some of the content you'll encounter here might be 
 
 ---
 
+**Entry #8. Why I don't watch movies.**
+
+[soon]
+
 **Entry #7. Why I occasionally use British English variations.**
 
 [soon]
