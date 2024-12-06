@@ -39,3 +39,12 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// Custom styles
+.hidden-link {
+    color: black !important;
+    text-decoration: none !important;
+}
+.hidden-link:hover {
+    text-decoration: none !important;
+}
