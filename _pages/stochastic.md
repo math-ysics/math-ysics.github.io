@@ -8,9 +8,17 @@ Welcome to my personal blog! Some of the content you'll encounter here might be 
 
 ---
 
+**Entry #6. How to get things done.**
+
+[soon]
+
 **Entry #5. On my music tastes.**
 
+[soon]
+
 **Entry #4. On the Fermi Paradox.**
+
+[soon]
 
 **Entry #3. The impact of Microsoft Flight Simulator X.**
 
