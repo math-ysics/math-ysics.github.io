@@ -26,7 +26,7 @@ Welcome to my personal blog! Some of the content you'll encounter here might be 
 
 **Entry #3. The impact of Microsoft Flight Simulator X.**
 
-[soon]
+[soon][geodesics?]
 
 **Entry #2. Why I don't like talking about my past.**
 
