@@ -20,7 +20,7 @@ I find it a matter of scarce interest, and thus I refrain from its mention unles
 
 Perhaps this is not a profound chain of thought, but rather a clearer, more objective perspective on how I wish to live life. I perceive existence as deterministic, and thus nihilism beckons to me with its elegant indifference—its beauty lies purely within its fundamental notion. This philosophy grants me absolute freedom, a gift I deeply cherish.
 
-**Entry #0. A Poem.**
+**Entry #0.**
 
 *Upon the loom of eternal Chronos we entwine,*  
 *With each lambent scintilla our boundless phantasms shine.*  
