@@ -8,6 +8,10 @@ Welcome to my personal blog! Some of the content you'll encounter here might be 
 
 ---
 
+**Entry #5. On my music tastes.**
+
+**Entry #4. On the Fermi Paradox.**
+
 **Entry #3. The impact of Microsoft Flight Simulator X.**
 
 [soon]
