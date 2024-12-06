@@ -40,11 +40,15 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-// Custom styles
-.hidden-link {
-    color: black !important;
+/* Custom styles */
+.author__content .author__bio a[href="/stochastic/"] {
+    color: inherit !important;
     text-decoration: none !important;
 }
-.hidden-link:hover {
+.author__content .author__bio a[href="/stochastic/"]:hover {
+    color: inherit !important;
     text-decoration: none !important;
+}
+.author__content .author__bio a[href="/stochastic/"]:visited {
+    color: inherit !important;
 }
