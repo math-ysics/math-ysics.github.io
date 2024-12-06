@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "avatar_scholar_256.png"
   name             : "Michael Chen"
-  bio              : "\"Be Stochastic.\""
+  bio              : "<a href='/stochastic/'>'Be Stochastic.'</a>"
   location         : "United States"
   employer         : "California Institute of Technology"
   uri              : # URL
