@@ -38,9 +38,9 @@ I find it a matter of scarce interest, and thus I refrain from its mention unles
 
 **Entry #1. Why I embrace nihilism.**
 
-This is not an orphic chain of thought, but rather a clearer, more objective perspective on how I wish to live life. I perceive existence as deterministic, and thus nihilism beckons to me with its elegant indifference—its beauty lies purely within its fundamental notion. This philosophy grants me absolute freedom, a gift I deeply cherish.
+This is not an orphic chain of thought, but rather a more objective standpoint on how I perceive life. I perceive existence as deterministic, and thus nihilism beckons to me with its elegant indifference.
 
-Imagine life as a black box—offering no explicit purpose or inherent design from the outside, yet governed by an internal logic that transforms inputs into inevitable outcomes. Yet, its very existence grants complete freedom in how you choose to engage with it. It is a void—not barren, not desolate, but profound in its refusal to impose meaning, leaving you the sovereign architect of significance, or the liberator who discards it altogether. Within this, you may discover smaller boxes inside—your own constructions—values, aspirations, emotions. You can open and rearrange them or discard them at will, knowing they were never part of the original box’s essence. The black box is the utmost gift of gifts—one that is most beautiful because it is inherently unadorned.
+Imagine life as a black box—offering no explicit purpose or inherent design from the outside, yet governed by an internal logic that transforms inputs into inevitable outcomes. Yet, its very existence grants absolute freedom in how you choose to engage with it. It is a void—not barren, not desolate, but profound in its refusal to impose meaning, leaving you the sovereign architect of significance, or the liberator who discards it altogether. Within this, you may discover smaller boxes inside—your own constructions—values, aspirations, emotions. You can open and rearrange them or discard them at will, knowing they were never part of the original box’s essence. The black box is the utmost gift of gifts—one that is most beautiful because it is inherently unadorned.
 
 **Entry #0.**
 
