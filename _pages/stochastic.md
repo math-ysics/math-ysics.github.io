@@ -28,7 +28,7 @@ Then in December 2022, I came across ここにはないもの - 乃木坂, and t
 
 **Entry #4. On the Fermi paradox.**
 
-The general idea is that the Fermi paradox arises due to a few constraining factors in the Drake Equation (one could modify the equation to enhance its comprehensiveness). Nevertheless, it is a near certainty that there exist numerous intelligent civilizations scattered throughout the observable universe (our separation by immense distances renders interaction an arduous endeavor). I posit that there is a nontrivial risk of Dark Forest (>1%). If Dark Forest holds true, extinction is highly likely, necessitating our preparedness and ability to defend ourselves. By the same logic, active SETI/METI is a foolish idea as an underdeveloped civilization such as our own.
+The general idea is that the Fermi paradox arises due to a few constraining factors in the Drake equation (one could modify the equation to enhance its comprehensiveness). Nevertheless, it is a near certainty that there exist numerous intelligent civilizations scattered throughout the observable universe (our separation by immense distances renders interaction an arduous endeavor). I posit that there is a nontrivial risk of Dark Forest (>1%). If Dark Forest holds true, extinction is highly likely, necessitating our preparedness and ability to defend ourselves. By the same logic, active SETI/METI is a foolish idea as an underdeveloped civilization such as our own.
 
 **Entry #3. The impact of Microsoft Flight Simulator X.**
 
