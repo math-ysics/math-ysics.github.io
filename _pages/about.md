@@ -15,4 +15,6 @@ I also dabbled in some pre-college competitions (USA Team Selection Tests for <a
 
 *One shall direct their correspondence to [first initial] + h + [last] + [at] + caltech + [dot] + edu*
 
+> Imagine life as a black box—offering no explicit purpose or inherent design from the outside, yet governed by an internal logic that transforms inputs into inevitable outcomes. Even so, its very existence bestows radical agency over how you choose to engage with it. It is a void—not barren, not desolate, but profound in its refusal to impose meaning, leaving you the sovereign architect of significance, or the liberator who discards it altogether. Within this, you may discover smaller boxes inside—your own constructions—values, aspirations, emotions. You can open and rearrange them or relinquish them at will, knowing they have never been, nor will they ever be, part of the black box's original essence. The black box is the utmost gift of gifts—one that is most beautiful because it is inherently unadorned.
+
 <!-- <img src="https://raw.githubusercontent.com/math-ysics/math-ysics.github.io/refs/heads/master/images/quote.png" alt="Quote"> -->
