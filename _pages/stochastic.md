@@ -14,7 +14,7 @@ Throughout my entire life, I've possessed a keen sense, if one may call it that,
 
 **Entry #7. Why I occasionally use British English variations.**
 
-I naturally gravitate towards certain spellings over others—statistically, these tend to be words I first came across aurally rather than visually. Particularly, “defence" immediately comes to mind. Beyond spelling, I strongly prefer the variation “‘[word]’,” over “‘[word,]’”; the placement of the comma within the quotation marks, when not present in the original text, feels logically unjustifiable.
+I naturally gravitate towards certain spellings over others—statistically, these tend to be words I first came across aurally rather than visually. Particularly, “defence" and "sizeable" immediately come to mind. Beyond spelling, I strongly prefer the variation “‘[word]’,” over “‘[word,]’”; the placement of the comma within the quotation marks, when not present in the original text, feels logically unjustifiable.
 
 **Entry #6. How to get things done.**
 
