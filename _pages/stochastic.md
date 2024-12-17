@@ -24,7 +24,7 @@ Very simply put, the seriousness of oneself determines the outcomes of one's eff
 
 I was first introduced to music in 5th grade when I learned to play the flute. However, at the time, I was quite opposed to listening to music as I found it fairly pointless. Only until 8th grade, when I attended the AwesomeMath Summer Program at UT Dallas (where I met many awesome characters), that I was introduced to Geometry Dash and the custom Bloodlust stage, at the time being one of the most difficult stages in the game. The song associated with that level definitely struck a chord in me, and I began listening to it while walking home on my school-issued iPad. Upon recall, I began liking EDM a fair amount (a sentiment shared by many other math competition middle schoolers) at the time. This phase lasted for about a year before I ceased listening to music for a while.
 
-Then in December 2022, I came across ここにはないもの - 乃木坂, and the composition absolutely shocked me. To prove a point—to this day, at the time of writing this blog entry, it remains my favorite song. I believe the counter-melody is my favorite aspect; it's truly remarkable and unlike anything I've ever heard. This resparked music for me, and it definitely has opened up innumerable boxes for musical exploration.
+Then in December 2022, I came across 「ここにはないもの」, and the composition absolutely shocked me. To prove a point—to this day, at the time of writing this blog entry, it remains my favorite song. I believe the counter-melody is my favorite aspect; it's truly remarkable and unlike anything I've ever heard. This resparked music for me, and it definitely has opened up innumerable boxes for musical exploration.
 
 **Entry #4. On the Fermi paradox.**
 
